@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link href="clock.js" rel="stylesheet" />
+    <script src="clock.js"></script>
+    <title>Комфорт</title>
+</head>
+<body>
+
+<div class='header'>
+    <div class='container'>
+        <div class='header-line'>
+            <div class='header-logo'>
+                <img src="logo.png" alt="">
+            </div>
+
+            <div class='nav'>
+                <a class='nav-item' href="index.html">ГЛАВНАЯ</a>
+                <a class='nav-item' href="index`.html">О НАС</a>
+                <a class='nav-item' href="index2.html">МЕБЕЛЬ</a>
+            </div>
+
+            <div class='cart'>
+                <a class='cart-img' href="#registr" onclick="location.href='js/index.html'">
+                    <img class='cart-img' src="cart.png" alt="">
+                </a>
+            </div>
+
+            <div class='phone'>
+                <div class='phone-holder'>
+                    <div class='phone-img'>
+                        <img src="phone.png" alt="">
+                    </div>
+
+                    <div class='number'><a class='num' href='#'>+999-999-99-99</a></div>
+                </div>
+
+                <div class='phone-text'>
+                    Свяжитесь с нами для <br> заказа
+                </div>
+            </div>
+
+            <div class='btn'>
+                <a class='button' href='index2.html'>ЗАКАЗАТЬ МЕБЕЛЬ</a>
+            </div>
+        </div>
+
+
+        <div class='header-down'>
+
+            <div class='header-title'>
+                Добро пожаловать в
+
+                <div class='header-subtitle'>
+                    Нашу мастерскую мебели
+                </div>
+
+                <div class='header-suptitle'>
+
+                </div>
+
+                <div class='header-bth'>
+                    <a href='index.html' class='header-button'>Главная</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class='cards'>
+
+    <div class='container'>
+
+       <div class='cards-holder'>
+
+            <div class='card'>
+
+                <div class='card-image'>
+                    <img class='card-img' src='card.png'>
+                </div>
+
+                <div class='card-title'>
+                      <span>Качество</span>
+                </div>
+
+                <div class='card-desc'>
+                    В нашей мастерской лучшая мебель! 
+                </div>
+
+            </div>
+
+            <div class='card'>
+
+                <div class='card-image'>
+                    <img class='card-img' src='card.png'>
+                </div>
+
+                <div class='card-title'>
+                      <span>Стиль</span>
+                </div>
+
+                <div class='card-desc'>
+                    Самая современная мебель!
+
+                </div>
+
+            </div>
+
+            <div class='card'>
+
+                <div class='card-image'>
+                    <img class='card-img' src='card.png'>
+                </div>
+
+                <div class='card-title'>
+                    <span>Выгодные Цены</span>
+                </div>
+
+                <div class='card-desc'>
+                    Стоимость нашей мебели самая выгодная!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class='history'>
+
+    <div class='container'>
+
+        <div class='history-holder'>
+            <div class='history-info'>
+                <div class='history-title'>
+                    <span>Комфорт</span>
+                </div>
+
+                <div class='history-desc'>
+                    Мастерская мебели «Комфорт» предлагает услуги по изготовлению кухонь и другой мебели на заказ по индивидуальным размерам.
+                </div>
+
+
+                <div class='history-number'>
+                    <div class='number-item'>
+                        193 <span>Мебели</span>
+                    </div>
+
+                    <div class='number-item'>
+                        216 <span>Сотрудников</span>
+                    </div>
+
+                    <div class='number-item'>
+                        1 <span>Место на рынке</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class='history-images'>
+                <img class='imgages-1' src="1.jpg" alt="">
+                <img class='imgages-2' src="2.jpg" alt="">
+                <img class='imgages-3' src="3.jpg" alt="">
+        </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class='black-block'>
+
+    <div class='container'>
+
+        <div class='block-holder'>
+            <div class='left'>
+                <div class='left-title'>
+                    Закажи мебель в одном из <br> самых лучших мастерских.
+                </div>
+
+                <div class='left-text'>
+                    Только в этом месяце скидка 15%
+                </div>
+            </div>
+
+            <div class='right'>
+                <div class='right-button'>
+                    <a href='index2.html' class='right-btn'>КАТАЛОГ</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+    </div>
+
+</div>
+
+<body onLoad="initClock()">
+
+  <div id="timedate">
+    <a id="mon">January</a>
+    <a id="d">1</a>,
+    <a id="y">0</a><br />
+    <a id="h">12</a> :
+    <a id="m">00</a>:
+    <a id="s">00</a>:
+    <a id="mi">000</a>
+  </div>
+ </body>
+ 
+<div class='footer'>
+    Copyright 2023
+</div>
+    
